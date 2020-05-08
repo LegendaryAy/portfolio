@@ -77,13 +77,13 @@
     }    
 }
 @include mediaSm{
-    main{
-        &#home{
-        margin-top:3vh;
-    }
-   
-}
+    
     .projects{
         grid-template-columns: 1fr;
+    }
+
+    .box{
+        width:100%;
+        
     }
 }
